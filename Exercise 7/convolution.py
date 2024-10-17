@@ -30,9 +30,9 @@ def convolution(image, kernel):
 
 
 if __name__=="__main__":
-    image = Image.open('butterfly.png') # Our original image.
+    image = Image.open('butterfly.png') # Our original image. For some reason the image isn't taken from the same directory. To take from Exercise 7 folder: 'Exercise 7\\butterfly.png'
     # Our kernels/filters that we will use.
-    kernel1 = np.array([[-1, -1, -1], [-1, 4, -1], [-1, -1, -1]]) # Laplacian filter.
+    kernel1 = np.array([[-1, -1, -1], [-1, 4, -1], [-1, -1, -1]])
     kernel2 = np.array([[-1, 0, -1], [0, 4, 0], [-1, 0, -1]])
 
     # Apply convolutions.
