@@ -2,3 +2,6 @@
 *.zip
 *.docx
 exconv.py
+"Exercise 11"/mnist_data/mnist_train.csv
+"Exercise 11"/mnist_data/mnist_test.csv
+"Exercise 11"/*.pth
